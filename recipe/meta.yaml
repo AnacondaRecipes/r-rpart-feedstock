@@ -10,8 +10,8 @@ package:
 source:
   fn: rpart_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/rpart_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/rpart/rpart_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/rpart_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/rpart/rpart_{{ version }}.tar.gz
   sha256: 38ab80959f59bcdd2c4c72860e8dd0deab0307668cbbf24f96014d7a2496ad98
 
 
